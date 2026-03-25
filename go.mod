@@ -1,4 +1,4 @@
-module github.com/ctrl/video-filename-parser
+module github.com/stvnkis/video-filename-parser-go
 
 go 1.21
 
