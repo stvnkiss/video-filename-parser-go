@@ -1,6 +1,6 @@
 # video-filename-parser (Go)
 
-A Go port of [@ctrl/video-filename-parser](https://github.com/nicholasgasior/video-filename-parser), a TypeScript library for parsing video release/file names. The parsing logic is based on [Radarr](https://github.com/Radarr/Radarr) and [Sonarr](https://github.com/Sonarr/Sonarr).
+A Go port of [@ctrl/video-filename-parser](https://github.com/scttcper/video-filename-parser), a TypeScript library for parsing video release/file names. The parsing logic is based on [Radarr](https://github.com/Radarr/Radarr) and [Sonarr](https://github.com/Sonarr/Sonarr).
 
 Given a release name like `Whats.Eating.Gilbert.Grape.1993.720p.BluRay.x264-SiNNERS`, it extracts structured metadata: title, year, resolution, source, video/audio codec, audio channels, release group, languages, edition flags, and TV season/episode information.
 
@@ -87,4 +87,4 @@ go test ./...
 
 ## Origin
 
-This is a faithful Go port of the TypeScript [`@ctrl/video-filename-parser`](https://github.com/nicholasgasior/video-filename-parser) library. All parsing patterns and logic are derived from that project, which is itself based on Radarr/Sonarr's release name parsing.
+This is a faithful Go port of the TypeScript [`@ctrl/video-filename-parser`](https://github.com/scttcper/video-filename-parser) library. All parsing patterns and logic are derived from that project, which is itself based on Radarr/Sonarr's release name parsing.
