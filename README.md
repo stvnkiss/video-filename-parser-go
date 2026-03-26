@@ -7,13 +7,13 @@ Given a release name like `Whats.Eating.Gilbert.Grape.1993.720p.BluRay.x264-SiNN
 ## Installation
 
 ```sh
-go get github.com/ctrl/video-filename-parser
+go get github.com/stvnkiss/video-filename-parser-go
 ```
 
 ## Usage
 
 ```go
-import videoparser "github.com/ctrl/video-filename-parser"
+import videoparser "github.com/stvnkiss/video-filename-parser-go"
 
 // Parse a movie
 result := videoparser.FilenameParse("Whats.Eating.Gilbert.Grape.1993.720p.BluRay.x264-SiNNERS", false)
