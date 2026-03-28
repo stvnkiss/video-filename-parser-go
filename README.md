@@ -81,7 +81,6 @@ The `Edition` struct contains boolean flags for:
 ## Running tests
 
 ```sh
-cd go
 go test ./...
 ```
 
